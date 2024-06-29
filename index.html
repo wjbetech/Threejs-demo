@@ -3,9 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Threejs Demo</title>
+    <title>Threejs Demo Part 1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="importmap">
+      {
+        "import": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.modules.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
+        }
+      }
+    </script>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
